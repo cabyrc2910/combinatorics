@@ -7,7 +7,6 @@
 import numpy as np
 import scipy.stats as stats
 
-
 # Гипотеза 1:   H0 : M = 2,5
 # Гипотеза 2:   H1 : M ≠ 2,5
 
