@@ -29,11 +29,13 @@ ipykernel==6.18.0
 ipython==8.6.0
 isOdd==0.1.2
 jedi==0.18.1
+joblib==1.2.0
 json2json==0.1.0
 jupyter_client==7.4.7
 jupyter_core==5.0.0
 kiwisolver==1.4.4
 kwargs==1.0.1
+LinearRegression==0.0.1
 math2==0.0.2.dev3
 matplotlib==3.6.2
 matplotlib-inline==0.1.6
@@ -41,8 +43,9 @@ mpmath==1.2.1
 nest-asyncio==1.5.6
 numpy==1.23.4
 packaging==21.3
-pandas==1.5.1
+pandas==1.5.3
 parso==0.8.3
+patsy==0.5.3
 penguins==0.5.1
 period-iterator==1.2.5
 pickleshare==0.7.5
@@ -64,9 +67,11 @@ pywin32==305
 pyzmq==24.0.1
 requests==2.28.1
 rfc3986==1.5.0
+scikit-learn==1.2.1
 scipy==1.10.0
 seaborn==0.12.1
 six==1.16.0
+sklearn-linear-model-modification==0.0.11
 sniffio==1.3.0
 sns==0.1
 solvers==0.6
@@ -74,7 +79,9 @@ stack-data==0.6.1
 star-array==1.0
 static-variables==0.0.5
 stats==0.1.2a0
+statsmodels==0.13.5
 sympy==1.11.1
+threadpoolctl==3.1.0
 tornado==6.2
 traitlets==5.5.0
 tzdata==2022.5

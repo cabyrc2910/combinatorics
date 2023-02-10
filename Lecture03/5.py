@@ -1,6 +1,7 @@
 # Расчёт 1 и 3 квартиля в Python НАЙТИ 75 ПЕРЦЕНТИЛЬ
 import array
 import numpy as np
+
 z = np.array([1,2,4,2,1,5,7,2,3,5,7,8,9])
 print(z) # array([1,2,4,2,1,5,7,2,3,5,7,8,9])
 

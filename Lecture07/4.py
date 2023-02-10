@@ -6,5 +6,6 @@ import scipy.stats as stats
 before = np.array([1223, 135, 119, 109, 145])
 diet_1 = np.array([126, 144, 117, 156, 170])
 diet_2 = np.array([141, 150, 164, 147, 169])
+
 print(stats.friedmanchisquare(before, diet_1, diet_2))
 # FriedmanchisquareResult(statistic=1.6000000000000014, pvalue=0.44932896411722134)

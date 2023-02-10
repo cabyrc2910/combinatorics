@@ -2,6 +2,7 @@
 
 import array
 import numpy as np
+
 np.random.seed(1)
 n = 360
 c = np.random.randint (1, 7,size = n)
