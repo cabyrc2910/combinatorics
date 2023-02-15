@@ -14,8 +14,9 @@ n = 27
 mean = 174.2
 std = (var)**0.5
 alpha = 0.05
-z = stats.t.ppf(1-alpha/2,n-1)
+# z = stats.t.ppf(1-alpha/2,n-1)
+z = stats.norm.ppf(1-alpha/2)  # известна дисперсия, значит известна сигма генеральной совокупности
 d = z*std/(n)**0.5
-min = mean - d          # 172.22
-max = mean + d          # 176.18
+min = mean - d          #  172.31
+max = mean + d          #  176.09
 print(f'Доверительный интервал для математического ожидания с надежностью 95% составляет:\n'f'min ={min: .2f}\n'f'max ={max: .2f}')
